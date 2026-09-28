@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.KramseSTAGING"
+  DTS:DTSID="{3B3B3E87-E20A-41D9-BECF-30622898D610}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=KramseSTAGING;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Kramse-2175709-{3B3B3E87-E20A-41D9-BECF-30622898D610}LocalHost.KramseSTAGING;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

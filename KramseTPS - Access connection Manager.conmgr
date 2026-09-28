@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="E__Avans_Kramse-2026_Kramse_Data_KramseTPS.mdb"
+  DTS:DTSID="{18B85B2B-0808-47F6-8F4A-47B412BB57B4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=E:\Avans\Kramse-2026\Kramse\Data\KramseTPS.mdb;Provider=Microsoft.ACE.OLEDB.16.0;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
