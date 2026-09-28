@@ -1,10 +1,10 @@
 # Kramse
 
-Kramse is een ETL-project (Extract, Transform, Load) gebouwd met SQL Server Integration Services (SSIS). Het project verplaatst en transformeert data tussen verschillende bronsystemen en doelsystemen, waaronder ERP-, PSA-, ODS- en RAW-omgevingen.
+Kramse is een ETL-project (Extract, Transform, Load) gebouwd met SQL Server Integration Services (SSIS). Het project verplaatst en transformeert data tussen verschillende bronsystemen en doelsystemen, waaronder ERP-, PSA-, ODS- en RAW-omgevingen. Daarnaast is het doel om dashboards te ontwerpen op basis van de verzamelde en getransformeerde data.
 
 ## Doel
 
-Het doel van Kramse is om data uit diverse bronnen (Excel, Access, MSSQL) te extraheren, te transformeren en te laden in de juiste doelsystemen. Op deze manier wordt data centraal beschikbaar gesteld voor analyse en verdere verwerking.
+Het doel van Kramse is om data uit diverse bronnen (Excel, Access, MSSQL) te extraheren, te transformeren en te laden in de juiste doelsystemen. Op deze manier wordt data centraal beschikbaar gesteld voor analyse, rapportage en dashboarding.
 
 ## Functionaliteiten
 
@@ -28,7 +28,7 @@ Het project volgt een gelaagde ETL-aanpak:
 
 Bronnen --> RAW --> ERP --> PSA --> ODS
 
-Elke laag heeft een eigen doel en verantwoordelijkheid binnen de dataflow.
+Elke laag heeft een eigen doel en verantwoordelijkheid binnen de dataflow. De uiteindelijke data wordt gebruikt voor het ontwerpen van dashboards.
 
 ## Technologieën
 
